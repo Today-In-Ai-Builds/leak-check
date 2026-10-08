@@ -1,0 +1,3 @@
+node_modules/
+.leak-check/
+leak-check-report*.md
