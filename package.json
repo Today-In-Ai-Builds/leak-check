@@ -1,0 +1,23 @@
+{
+  "name": "leak-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Finds the secrets and open doors in your app before someone else does: code, git history, what your app serves, and your dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Today-In-Ai-Builds/leak-check"
+  },
+  "scripts": {
+    "demo-app": "node demo-app/server.mjs",
+    "leak-check": "node leak-check/leak-check.mjs",
+    "test": "node --test leak-check/leak-check.test.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  }
+}

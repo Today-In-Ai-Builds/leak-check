@@ -1,0 +1,2 @@
+# Leak Check's own osv-scanner config: no ignored vulnerabilities.
+# Passed with --config so a scanned repo's osv-scanner.toml cannot hide its own.

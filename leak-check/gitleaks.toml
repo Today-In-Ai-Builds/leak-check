@@ -1,0 +1,4 @@
+# Leak Check's own gitleaks config: gitleaks' default rules, nothing else.
+# Passed with --config so a scanned repo's .gitleaks.toml cannot allowlist its own leaks.
+[extend]
+useDefault = true

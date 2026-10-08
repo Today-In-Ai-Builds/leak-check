@@ -1,0 +1,42 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 3,
+  "EndLine": 3,
+  "StartColumn": 2,
+  "EndColumn": 47,
+  "Match": "FIXTURE-MATCH",
+  "Secret": "FIXTURE-SECRET-demo-app-.env",
+  "File": "demo-app/.env",
+  "SymlinkFile": "",
+  "Commit": "f8fa1b6d3b326b2600c9501a7a916c29fe849477",
+  "Entropy": 4.47641,
+  "Author": "fixture",
+  "Email": "fixture@example.test",
+  "Date": "2026-10-08T20:16:37Z",
+  "Message": "Notes app: list notes from the API",
+  "Tags": [],
+  "Fingerprint": "f8fa1b6d3b326b2600c9501a7a916c29fe849477:demo-app/.env:generic-api-key:3"
+ },
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 2,
+  "EndLine": 2,
+  "StartColumn": 8,
+  "EndColumn": 66,
+  "Match": "FIXTURE-MATCH",
+  "Secret": "FIXTURE-SECRET-demo-app-public-app.js",
+  "File": "demo-app/public/app.js",
+  "SymlinkFile": "",
+  "Commit": "f8fa1b6d3b326b2600c9501a7a916c29fe849477",
+  "Entropy": 4.6153116,
+  "Author": "fixture",
+  "Email": "fixture@example.test",
+  "Date": "2026-10-08T20:16:37Z",
+  "Message": "Notes app: list notes from the API",
+  "Tags": [],
+  "Fingerprint": "f8fa1b6d3b326b2600c9501a7a916c29fe849477:demo-app/public/app.js:generic-api-key:2"
+ }
+]
