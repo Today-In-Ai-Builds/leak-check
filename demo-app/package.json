@@ -1,0 +1,6 @@
+{
+  "name": "notes-demo-app",
+  "private": true,
+  "description": "Leak Check's deliberately leaky demo app. Its dependency is never installed or run.",
+  "dependencies": { "lodash": "4.17.15" }
+}
