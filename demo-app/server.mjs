@@ -21,7 +21,7 @@ createServer(async (req, res) => {
     res.writeHead(200, { 'content-type': 'application/json' });
     return res.end(JSON.stringify(notes));
   }
-  const path = normalize(url.pathname).replace(/^[/\]+/, '');
+  const path = normalize(url.pathname).replace(/^[/\\]+/, '');
   const file = join(root, path || 'index.html');
   if (!file.startsWith(root)) return res.writeHead(403).end();
   let body;
