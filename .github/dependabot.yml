@@ -1,0 +1,14 @@
+# demo-app lists lodash 4.17.15 on purpose: it is what osv-scanner finds in the
+# demo. It is never installed or run. Keep Dependabot from "fixing" the demo.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /demo-app
+    schedule:
+      interval: monthly
+    ignore:
+      - dependency-name: lodash
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
